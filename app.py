@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-with open("C:\\Users\\saikr\\Documents\\Loan_status_ml_project_deployment\\loan_status.pkl", "rb") as f:
+with open("loan_status.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Loan Approval Prediction")
